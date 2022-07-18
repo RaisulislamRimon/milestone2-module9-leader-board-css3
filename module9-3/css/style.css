@@ -5,6 +5,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
 }
+main {
+  display: flex;
+}
 .container {
   background-color: #ffffff;
   width: 870px;
@@ -12,7 +15,7 @@ body {
   top: 130px;
   left: 285px;
   border-radius: 5px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 /* top player style */
 .players {
