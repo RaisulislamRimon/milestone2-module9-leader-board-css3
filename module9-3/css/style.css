@@ -15,9 +15,15 @@ main {
   top: 130px;
   left: 285px;
   border-radius: 5px;
+  padding: 30px;
   /* margin: 0 auto; */
 }
+
 /* top player style */
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+}
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -30,4 +36,7 @@ main {
 .player img {
   width: 56px;
   height: 56px;
+}
+.player-name {
+  margin-left: 16px;
 }
