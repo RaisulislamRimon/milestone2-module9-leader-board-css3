@@ -1,8 +1,18 @@
 /* poppins google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* common styles */
-body{
-  font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* common styles or utilities */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  height: 679px;
+  top: 130px;
+  left: 285px;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 /* top player style */
 .players {
@@ -11,10 +21,10 @@ body{
   /* grid-template-columns: 1fr 1fr 1fr; */
 }
 .player {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.player img{
-    width: 56px;
-    height: 56px;
+.player img {
+  width: 56px;
+  height: 56px;
 }
